@@ -1,0 +1,80 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* headings */
+
+
+
+/* navigation */
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: Montserrat-Light, sans-serif;
+    color: #FFC078;
+}
+
+/* title */
+
+#title{
+    text-align: left;
+}
+.title-section{
+    background-color: #baa58f;
+    color: black;
+}
+  
+.title-image{
+    width: 90%;
+    height: auto;
+    position: relative;
+    right: 50%;
+
+}
+
+
+
+.bamboo{
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    
+}
+
+.bamboo-2{
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    right: 5%;
+    top: 15%;
+
+}
+    
+.menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.menu-container img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
