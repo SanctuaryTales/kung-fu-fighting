@@ -43,6 +43,7 @@ body{
     height: auto;
     position: relative;
     right: 50%;
+    z-index: 1;
 
 }
 
@@ -54,6 +55,7 @@ body{
     position: absolute;
     left: 5%;
     top: 15%;
+    z-index:0;
     
 }
 
@@ -63,6 +65,7 @@ body{
     position: absolute;
     right: 5%;
     top: 15%;
+    z-index:0;
 
 }
     
@@ -70,11 +73,24 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .menu-container img{
     flex-shrink: 0;
     min-width: 100%;
-    min-height: 100%
+    min-height: 100%;
+    z-index: 1;
+}
+
+@media (max-width: 1000px) {
+
+
+    .title-image{
+        position: static;
+        margin-left: 5%;
+        margin-right: 5%;
+        min-width: 20%;
+    }
+
 }
